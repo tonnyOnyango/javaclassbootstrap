@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap</title>
+</head>
+<body>
+<!--&lt;!&ndash;Start of Nav Bar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Java</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--End of Nav Bar&ndash;&gt;-->
+<!--start of carousel-->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/pexels-michelangelo-buonarroti-8728382.jpg" class="d-block w-100 " height="500" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/pexels-eva-purrer-1937326549-28830743.jpg" class="d-block w-100" height="500" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/pexels-myleskuo-2399840.jpg" class="d-block w-100" height="500" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--end of carousel-->
+<div class="container-fluid bg-info text-white p-5 text-center">
+    <h2>Welcome to Java</h2>
+</div>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<div class="container-fluid" >
+    <div class="row bg-warning mt-3">
+        <div class="col-4">
+            <h2>Colum One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at aut ea explicabo in nisi odit recusandae reprehenderit sunt tenetur, ut,
+                voluptatum. Accusamus consequuntur, ea exercitationem molestiae non soluta ut.</p>
+            <img src="assets/images/pexels-cottonbro-6686455.jpg" width="50%">
+        </div>
+        <div class="col-4 bg-danger">
+            <h2>Column Two</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur atque dolorum ea illo, optio porro reiciendis unde voluptas voluptatibus. Ad consectetur molestias mollitia
+                praesentium recusandae suscipit tenetur vel veritatis.</p>
+            <img src="assets/images/pexels-josh-hild-1270765-16465970.jpg" width="50%">
+        </div>
+        <div class="col-4 bg-black">
+            <h2>Colum Three</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur cupiditate, ea enim fugiat ipsum, laudantium nesciunt officia quidem quisquam, ratione sequi soluta
+                sunt unde velit? Aspernatur ducimus sequi veniam!</p>
+            <img src="assets/images/pexels-michelangelo-buonarroti-8728382.jpg" width="50%">
+        </div>
+    </div>
+</div>
+<!--start of card-->
+<div class="card" style="width: 18rem;">
+  <img src="assets/images/Mobile_Payments1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<!--end of Card-->
+</body>
+</html>
